@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="testcase.TC_003_LoginDataDrivenTest">
+        <methods>
+          <include name="test_LoginDDT"/>
+          <include name="teadDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcase.TC_003_LoginDataDrivenTest -->
+      <class name="testcase.TC_002_LoginTest">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_login"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcase.TC_002_LoginTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
